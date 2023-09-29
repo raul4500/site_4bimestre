@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 900vh;
+}
+
+nav.menu-lateral{
+    width: 70px;
+    height: 100%;
+    background-color: #000000;
+    float: left;
+    transition: .5s;
+    box-shadow: 3px 0 0 rgb(255, 59, 180);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+
+nav.menu-lateral:hover{
+    width: 330px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    width: 300px;
+    padding-top: 30px;
+    position: relative;
+    left: 0px;
+}
+
+ul li{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: 30px;
+}
+
+ul li.item-menu{
+    transition: 0.5s;
+}
+
+ul li.item-menu:hover{
+    background: rgba(40, 159, 224, 0.291);
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-bottom: 25px;
+    line-height: 40px;
+    width: 100%;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 25px;
+    padding-left: 5px;
+}
+
+ul li.item-menu a .icon >i{
+    font-size: 30px;
+    margin-left: -50px;
+}
