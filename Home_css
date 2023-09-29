@@ -1,0 +1,102 @@
+*{
+    margin: 0;}
+
+.fundo_cab {
+
+
+    background-color:rgb(255, 255, 255);
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0%;}
+
+.texto_logo{
+    color:rgb(0, 0, 0)  
+}
+
+header{
+padding:15px 0 ;
+height: 55px; 
+}
+
+#principal{
+padding: 0px;
+height: 100%;
+width: 90%;
+margin: 0%;
+float: left;
+}
+
+#conteudo{
+width: 50%;
+float:left;
+background:rgba(255, 255, 255, 0.765);
+margin-left: 6%;
+margin-top: 2%;
+position: relative;
+}
+
+aside{
+width: 32%;
+float:left;
+background: rgb(207, 207, 207);
+margin-left: 8%;
+margin-top: 2%;
+position: relative;
+}   
+
+p{
+    margin: 8%;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h5{
+padding-left: 10px;
+transition: transform 500ms;
+transform: translateX(0) scale(1);
+}
+
+h5:hover,
+h5:focus {
+transform: translateX(0px) scale(1.2);
+}
+
+p1{
+    margin: 25%;
+    color: #000;
+}
+
+h2{
+display:inline-block;
+margin-left: 25px;
+padding-bottom:3px;
+text-transform:uppercase;
+font-family: 'Courier New', Courier, monospace;
+transform: translateX(0) scale(1);
+}
+
+section#consulta{
+background:#cdc8b1;
+padding:10px 27px 27px 27px;
+margin-top: 10px;
+}
+
+h4{
+color:#86521a;
+text-transform:uppercase;
+padding-bottom: 3px;
+margin-bottom: 3;
+}
+
+h3{
+    padding-left: 0;
+    color: #227115;
+}
+
+#rodape{
+    background-color: antiquewhite;
+    float: left;
+    width: 111.1%;
+    margin-top: 30px;
+    padding-top: 10px;
+}
