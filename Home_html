@@ -1,109 +1,150 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <title>Luar's Volleybol</title>
-    <link rel="stylesheet" type="text/css" href="site.css" />
+    <link rel="stylesheet" type="text/css" href="menulateral.css" />
     <meta charset="UTF-8"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body bgcolor="#899989">
-
     
-<div class="fundo_cab" id="container">
-      <header>
-        <div id="logo">
-        <center><h2><span class="texto_logo"><span>Luar's Volleybol:</span><span> Treinando até que seja impossivel dar errado</span></h2></center>
-        </div>
-      </header>
-    </div>   
-        
+    
+    
+    <nav class="menu-lateral">
+        <ul>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-house-fill"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                    <span class="txt-link">Quem somos</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-cart3"></i></span>
+                    <span class="txt-link">Produtos/serviços</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-person-lines-fill"></i></span>
+                    <span class="txt-link">Trabalhos/Projeto social</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-telephone"></i></span>
+                    <span class="txt-link">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="tudo">
+    <div class="fundo_cab" id="container">
+        <header>
+          <div id="logo">
+          <center><h2><span class="texto_logo"><span>Luar's Volleybol:</span><span> Treinando até que seja impossivel dar errado</span></h2></center>
+          </div>
+        </header>
+      </div>   
+          
     <div id="principal">
-        <div id="conteudo">
-        <center><p>
-            texto
-        </p></center>
-        
+          <div id="conteudo">
+          <center><p>
+              texto
+          </p></center>
+          
+  
+          <center><h3>Encontre nosso espaço!</h3></center>
+          </article>
+          <article id="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.7660367419485!2d-43.23148836240694!3d-22.91349403229712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5dba888b0d%3A0x474243945c2a701!2sMaracan%C3%A3zinho%20%7C%20Gin%C3%A1sio%20Gilberto%20Cardoso!5e0!3m2!1spt-BR!2sbr!4v1695842202172!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </article>
+          </p>
+          <article id=racas>
+              <center><h3>Colaboradores</h3></center>
+              <ul>
+              <li>
+              <a href="#">Líder</a>
+              </li>
+              <li>
+              <a href="#">Relações Públicas</a>
+              </li>
+              <li>
+              <a href="#">Desenvolvedores</a>
+              </li>
+              <li>
+              <a href="#">Designer</a>
+              </li>
+              </ul>
+              </article> 
+              <article id=“projeto”>
+                  <center><h3>Cuide da saúde do seu bichano</h3></center>
+                  <i><p> Mantenha em dia o check-up com o veterinário. Isso é importante para evitar
+                  que o bichano tenha problemas de saúde e, assim, fique longe de doenças que
+                  podem ser transmitidas entre os gatos como a FIV (vírus da imunodeficiência
+                  felina), a FELV (vírus da leucemia felina...).
+                  </p></i>
+                  </article>  
+          </div>
+          
+          <aside>
+          <section id="depoimento">
+          <img src="rayssa.jpg" width="100%">
+          </section>
+          <center><p><i>"Depois que minha avó morreu pensei que não tinha mais rumo na vida, então encontrei a Luar's Volleybol e sinto que venci na vida. Hoje sou medalhista pela Seleção Brasileira de Volêi!" Rayssa</i></p></center>
+          
+              <section id="depoimento"><p>
+              <img src="bento.jpg" width="100%" height="400px">
+              </p></section>
+  
+              <center><p><i>"Nunca fui muito bom em esportes, mas depois que entrei no Luar's Volleybol descobri uma paixão pelo volêi e me descobri novamente."  Bento</i></p></center>
+              
+  
+              <section id="consulta">
+              <h4>Venha para uma aula experimental</h4>
+              <form>
+                <fieldset>
+                  <legend>Selecione uma data</legend>
+                  <label for="data">data:</label>
+                  <input type="text" id="data" value="dd/mm/aa">
+                </fieldset>
+              <input type="submit" value="Verificar">
+          </form>
+              </section>
+  
+              <section>
+                  <h4><p>Grandes fenômenos que cresceram conosco</p></h4>
+                  <a href=""><p><h5>
+                  <img src="lucarelli.jpg" height="200" width="250" alt="Lucarelli">
+                  </a>
+                  <a href="">
+                  <img src="lebronjames.jpg" height="200" width="250" alt="Lebron">
+                  </a>
+                  <a href="">
+                  <img src="nishida.jpg" height="200" width="250" alt="nishida">
+                  </a>
+                  <a href="">
+                  <img src="gabi.jpg" height="200" width="250" alt="Gabi">
+                  </a>
+                  </p></h5></a>
+                  </section>
+          </aside>
+     <div id="rodape">
+      <footer style="clear:both;">
+          <center>
+          <p2>1991 <a href="#">Luar's Volleybol - Treinando até que seja impossivel dar errado.</a> -
+          Todos os direitos reservados </p2></center><br>
+      </div>  
+      </div>
+    </div>
 
-        <center><h3>Encontre nosso espaço!</h3></center>
-        </article>
-        <article id="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.7660367419485!2d-43.23148836240694!3d-22.91349403229712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e5dba888b0d%3A0x474243945c2a701!2sMaracan%C3%A3zinho%20%7C%20Gin%C3%A1sio%20Gilberto%20Cardoso!5e0!3m2!1spt-BR!2sbr!4v1695842202172!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </article>
-        </p>
-        <article id=racas>
-            <center><h3>Colaboradores</h3></center>
-            <ul>
-            <li>
-            <a href="#">Líder</a>
-            </li>
-            <li>
-            <a href="#">Relações Públicas</a>
-            </li>
-            <li>
-            <a href="#">Desenvolvedores</a>
-            </li>
-            <li>
-            <a href="#">Designer</a>
-            </li>
-            </ul>
-            </article> 
-            <article id=“projeto”>
-                <center><h3>Cuide da saúde do seu bichano</h3></center>
-                <i><p> Mantenha em dia o check-up com o veterinário. Isso é importante para evitar
-                que o bichano tenha problemas de saúde e, assim, fique longe de doenças que
-                podem ser transmitidas entre os gatos como a FIV (vírus da imunodeficiência
-                felina), a FELV (vírus da leucemia felina...).
-                </p></i>
-                </article>  
-        </div>
-        
-        <aside>
-        <section id="depoimento">
-        <img src="rayssa.jpg" width="100%">
-        </section>
-        <center><p><i>"Depois que minha avó morreu pensei que não tinha mais rumo na vida, então encontrei a Luar's Volleybol e sinto que venci na vida. Hoje sou medalhista pela Seleção Brasileira de Volêi!" Rayssa</i></p></center>
-        
-            <section id="depoimento"><p>
-            <img src="bento.jpg" width="100%" height="400px">
-            </p></section>
-
-            <center><p><i>"Nunca fui muito bom em esportes, mas depois que entrei no Luar's Volleybol descobri uma paixão pelo volêi e me descobri novamente."  Bento</i></p></center>
-            
-
-            <section id="consulta">
-            <h4>Venha para uma aula experimental</h4>
-            <form>
-              <fieldset>
-                <legend>Selecione uma data</legend>
-                <label for="data">data:</label>
-                <input type="text" id="data" value="dd/mm/aa">
-              </fieldset>
-            <input type="submit" value="Verificar">
-        </form>
-            </section>
-
-            <section>
-                <h4><p>Grandes fenômenos que cresceram conosco</p></h4>
-                <a href=""><p><h5>
-                <img src="lucarelli.jpg" height="200" width="250" alt="Lucarelli">
-                </a>
-                <a href="">
-                <img src="lebronjames.jpg" height="200" width="250" alt="Lebron">
-                </a>
-                <a href="">
-                <img src="nishida.jpg" height="200" width="250" alt="nishida">
-                </a>
-                <a href="">
-                <img src="gabi.jpg" height="200" width="250" alt="Gabi">
-                </a>
-                </p></h5></a>
-                </section>
-        </aside>
-   <div id="rodape">
-    <footer style="clear:both;">
-        <center>
-        <p2>1991 <a href="#">Luar's Volleybol - Treinando até que seja impossivel dar errado.</a> -
-        Todos os direitos reservados </p2></center><br>
-    </div>  
-    </div> 
 </body>
-</html>
+</html>   
