@@ -10,10 +10,10 @@ body{
 nav.menu-lateral{
     width: 70px;
     height: 100%;
-    background-color: #000000;
+    background-color: #23004a;
     float: left;
     transition: .5s;
-    box-shadow: 3px 0 0 rgb(255, 59, 180);
+    box-shadow: 3px 0 0 rgb(64, 0, 255);
     position: fixed;
     top: 0%;
     left: 0%;
@@ -34,7 +34,7 @@ ul{
 }
 
 ul li{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
     position: relative;
     left: 30px;
 }
@@ -44,11 +44,11 @@ ul li.item-menu{
 }
 
 ul li.item-menu:hover{
-    background: rgba(40, 159, 224, 0.291);
+    background: rgb(40, 20, 255);
 }
 
 ul li.item-menu a{
-    color: white;
+    color: #8150ff;
     text-decoration: none;
     font-size: 20px;
     padding-top: 20px;
@@ -62,6 +62,7 @@ ul li.item-menu a{
 ul li.item-menu a .txt-link{
     margin-left: 25px;
     padding-left: 5px;
+    color: rgb(251, 255, 0);
 }
 
 ul li.item-menu a .icon >i{
@@ -72,24 +73,41 @@ ul li.item-menu a .icon >i{
 *.tudo{
 margin: 0;
 width: 95%;
-float: right;}
+float: right;
+position: inherit;}
 
 .fundo_cab {
-
-
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(117, 0, 242);
     padding: 0px;
     height: 100px;
     width: 100%;
     margin: 0%;}
 
+    .icon1{
+        font-size: 30px;
+        float: right;
+        padding: 20px;
+    }
+
 .texto_logo{
-    color:rgb(0, 0, 0)  
+    color:rgb(0, 0, 0);
+    font-family: "arial-black"; 
+    font-size: 30px; 
+    margin-left: 15%;
 }
 
+
 header{
+background-color: #ffffff;
 padding:15px 0 ;
-height: 55px; 
+height: 100px;
+margin-bottom: 50px;
+}
+
+#foto{
+   position: static;
+   left:0px;
+   top: -50px;
 }
 
 #principal{
@@ -102,22 +120,14 @@ float: left;
 
 
 #conteudo{
-width: 50%;
+width: 100%;
 float:left;
-background:rgba(255, 255, 255, 0.765);
+background:rgb(255, 255, 255);
 margin-left: 6%;
 margin-top: 2%;
-position: relative;
+
 }
 
-aside{
-width: 32%;
-float:left;
-background: rgb(207, 207, 207);
-margin-left: 8%;
-margin-top: 2%;
-position: relative;
-}   
 
 p{
     margin: 8%;   
@@ -130,15 +140,6 @@ transition: transform 500ms;
 transform: translateX(0) scale(1);
 }
 
-h5:hover,
-h5:focus {
-transform: translateX(0px) scale(1.2);
-}
-
-p1{
-    margin: 25%;
-    color: #000;
-}
 
 h2{
 display:inline-block;
@@ -146,11 +147,10 @@ margin-left: 25px;
 padding-bottom:3px;
 text-transform:uppercase;
 font-family: 'Courier New', Courier, monospace;
-transform: translateX(0) scale(1);
 }
 
 section#consulta{
-background:#cdc8b1;
+background:#ffd20b;
 padding:10px 27px 27px 27px;
 margin-top: 10px;
 }
@@ -168,7 +168,7 @@ h3{
 }
 
 #rodape{
-    background-color: antiquewhite;
+    background-color: #ffffff;
     float: left;
     width: 111.1%;
     margin-top: 30px;
