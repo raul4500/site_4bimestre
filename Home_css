@@ -10,10 +10,10 @@ body{
 nav.menu-lateral{
     width: 70px;
     height: 100%;
-    background-color: #120049;
+    background-color: #22008a;
     float: left;
     transition: .5s;
-    box-shadow: 3px 0 0 rgb(64, 0, 255);
+    box-shadow: 3px 0 0 rgb(122, 78, 255);
     position: fixed;
     top: 0%;
     left: 0%;
@@ -48,7 +48,7 @@ ul li.item-menu:hover{
 }
 
 ul li.item-menu a{
-    color: #6900bf;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     padding-top: 20px;
@@ -62,7 +62,7 @@ ul li.item-menu a{
 ul li.item-menu a .txt-link{
     margin-left: 25px;
     padding-left: 5px;
-    color: #226b80;
+    color: #ffffff;
 }
 
 ul li.item-menu a .icon >i{
@@ -77,47 +77,72 @@ float: right;
 position: inherit;}
 
 .fundo_cab {
-    background-color:#226b80;
+    background-color:#00000055;
     padding: 0px;
     height: 100px;
     width: 100%;
     margin: 0%;}
 
-    .icon1{
-        font-size: 30px;
-        float: right;
-        padding: 20px;
-    }
+.icon1{
+    font-size: 30px;
+    float: right;
+    padding: 20px;
+}
 
 .texto_logo a{
-    color:rgb(0, 0, 0);
-    font-family: "arial"; 
-    font-size: 30px; 
-    margin-left: 15%;
-    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+    left: 45%;
+    top: -20px;
 }
 
 
 header{
-background-color: #ffffff;
+background-color: #ffffffd2;
 padding:15px 0 ;
 height: 100px;
 margin-bottom: 50px;
 }
 
 .foto{
-    background-color: #00000000;
-    height: 400px;
+    background-color: #4800ff;
+    height: 350px;
     float: right;
     width: 100%;
+    padding: 0px;
 }
 
 .foto img{
-    float: right;
-    padding-left: 3px;
-    padding-right: 6px;
-    padding-top: 10px;
+    position: absolute;
+}
+
+.foto .logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    position: relative;
+    color: #ffffff;
+    margin-top: -690px;
+    margin-left: 15%;
+}
+
+.foto .logo .linha-fina{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.foto .imagem2 img{
     border-radius: 20px;
+    position: relative;
+    top: -350px;
+    left: 65%;
+}
+
+.foto .imagem1 img{
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 53%;
 }
 
 #principal{
@@ -132,7 +157,7 @@ float: left;
 #conteudo{
 width: 100%;
 float:left;
-background:rgba(123, 0, 255, 0.135);
+background:rgb(255, 255, 255);
 margin-left: 6%;
 margin-top: 2%;
 height: 800px;
@@ -167,7 +192,7 @@ margin-bottom: 3;
 }
 
 
-#rodape{
+.tudo #rodape{
     background-color: #f1f1f16b;
     float: left;
     width: 111.1%;
