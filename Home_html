@@ -2,48 +2,13 @@
 <html lang="en">
 <head>
     <title>Luar's Volleybol</title>
-    <link rel="stylesheet" type="text/css" href="menulateral.css" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
     <meta charset="UTF-8"/>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body bgcolor="#ffffff" background="white">
     
-    <nav class="menu-lateral">
-        <ul>
-            <li class="item-menu">
-                <a href="#" title="Home">
-                    <span class="icon"><i class="bi bi-house-fill"></i></span>
-                    <span class="txt-link">Home</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="#" title="Quem somos">
-                    <span class="icon"><i class="bi bi-person-circle"></i></span>
-                    <span class="txt-link">Quem somos</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="#" title="Produtos/serviços">
-                    <span class="icon"><i class="bi bi-cart3"></i></span>
-                    <span class="txt-link">Produtos/serviços</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="#" title="Trabalhos/projeto social">
-                    <span class="icon"><i class="bi bi-person-lines-fill"></i></span>
-                    <span class="txt-link">Trabalhos/Projeto social</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="#" title="Contato">
-                    <span class="icon"><i class="bi bi-telephone"></i></span>
-                    <span class="txt-link">Contato</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
     <div class="tudo">
     <div class="fundo_cab" id="container">
         <header>
@@ -57,7 +22,7 @@
         <img src="https://images.hdqwalls.com/wallpapers/purple-blur-abstract-pj.jpg" width="100%" height="350px">
         
         <div class="imagem1">
-        <img src="https://i.pinimg.com/236x/95/70/26/9570260c9dd6a2ca8fb3a045fc377e9b.jpg" width="20%" height="400px" >
+        <img src="" width="20%" height="400px" >
         </div>   
         <div class="imagem2">
         <img src="https://i.pinimg.com/564x/bb/b1/79/bbb179a23c8428cad43723b5ef1e4181.jpg" width="20%" height="400px" >
@@ -73,7 +38,7 @@
     <div id="principal">
           <div id="conteudo">
           <center><p>
-              texto
+              Nos temos uma filial, temos que mensionar ela no site
           </p></center>
           
           <article id="mapa">
