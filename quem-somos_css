@@ -1,1 +1,176 @@
+    *{
+    margin: 0;
+    box-sizing: border-box;
+    }
 
+    nav.menu-lateral{
+        width: 70px;
+        height: 1000px;
+        background-color: #22008a;
+        float: left;
+        transition: .5s;
+        box-shadow: 3px 0 0 rgb(122, 78, 255);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        overflow: hidden;
+    }
+    
+    nav.menu-lateral:hover{
+        width: 330px;
+    }
+    
+    ul{
+        height: 100%;
+        list-style-type: none;
+        width: 300px;
+        padding-top: 30px;
+        position: relative;
+        left: 0px;
+    }
+    
+    ul li{
+        background-color: rgba(255, 255, 255, 0);
+        position: relative;
+        left: 30px;
+    }
+    
+    ul li.item-menu{
+        transition: 0.5s;
+    }
+    
+    ul li.item-menu:hover{
+        background: #40a798;
+    }
+    
+    ul li.item-menu a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        margin-bottom: 25px;
+        line-height: 40px;
+        width: 100%;
+    }
+    
+    ul li.item-menu a .txt-link{
+        margin-left: 25px;
+        padding-left: 5px;
+        color: #ffffff;
+    }
+    
+    ul li.item-menu a .icon >i{
+        font-size: 30px;
+        margin-left: -50px;
+    }
+    
+
+    body{
+    height: 100vh;
+    }
+
+    *.tudo{
+    margin: 0px;
+    width: 100%;
+    float: right;
+    position: inherit;
+    background-color: #ffffff;
+    
+}
+    
+    .fundo_cab {
+    background-color:#00000055;
+    padding: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0px;}
+
+    .texto_logo a{
+        position: relative;
+        margin-bottom: 10px;
+        left: 45%;
+        top: -20px;
+    }
+    
+    header{
+    background-color: #ffffffd2;
+    padding:15px 0 ;
+    height: 100px;
+    margin-bottom: 0px;
+    }
+    
+    .foto{
+    background-color: #ffffff;
+    height: 200px;
+    float: right;
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+    }
+    
+    .foto img{
+        position: absolute;
+    }
+
+    .foto .logo{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: 50px;
+        position: relative;
+        color: #ffffff;
+        margin-top: 60px;
+    }
+    
+    .foto .logo .linha-fina{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    #principal{
+    padding: 0px;
+    height: auto;
+    width: 70%;
+    margin: 10px 15%;
+    float: left;
+    background-color: #ffffff;
+    }
+        
+    #conteudo{
+    width: 70%;
+    float:left;
+    background:rgb(255, 255, 255);
+    margin: 10px 20%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20;
+    text-align: justify;
+    text-decoration: dashed;
+    font-family: Calibri;
+    }
+        
+    p{
+    margin: 8%;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #rodape{
+        background-color: #ffefef;
+        float: left;
+        width: 100%;
+        padding: 70px;
+        position: relative;
+        height: 250px;
+        top: 10px;
+    }
+    
+    #rodape .texto-footer{
+        font-size: medium;
+        float: left;
+        columns: 1;
+        line-height: 10px;
+        padding-left: 20px;
+    }
+    
+    
