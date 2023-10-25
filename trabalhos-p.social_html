@@ -1,1 +1,79 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Luar's Volleybol</title>
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <meta charset="UTF-8"/>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body bgcolor="#ffffff" background="white">
+
+    <div class="tudo">
+    <div class="fundo_cab" id="container">
+        <header>
+          <div id="logo">
+          <span class="texto_logo"><a href="menulateral.html"><img src="https://image.spreadshirtmedia.net/image-server/v1/mp/products/T1459A839PA4459PT28D158555861W10000H7727/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/heartbeat-volleyball-sport-drawing-gift-sticker.jpg" width="120px" height="110px"></a></span></center>
+          </header>
+    </div>   
+
+    <div class="foto">
+        <img src="https://images.hdqwalls.com/wallpapers/purple-blur-abstract-pj.jpg" width="100%" height="200px">
+      <div class="logo">
+       <center>Quem Somos</center>
+        <div class="linha-fina">
+        </div>
+      </div>
+    </div>
+
+    <div id="principal">
+          <div id="conteudo">
+          <center><p>
+              texto
+          </p></center>
+        
+          </div>
+        </div>            
+      </div>
+    
+    <nav class="menu-lateral">
+        <ul>
+            <li class="item-menu">
+                <a href="#" title="Home">
+                    <span class="icon"><i class="bi bi-house-fill"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="quem-somos.html" title="Quem somos">
+                    <span class="icon"><i class="bi bi-person-circle"></i></span>
+                    <span class="txt-link">Quem somos</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#" title="Produtos/serviços">
+                    <span class="icon"><i class="bi bi-cart3"></i></span>
+                    <span class="txt-link">Produtos/serviços</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="site.html" title="Trabalhos/projeto social">
+                    <span class="icon"><i class="bi bi-person-lines-fill"></i></span>
+                    <span class="txt-link">Trabalhos/Projeto social</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="rodape">
+        <footer style="clear:both">
+                <div class="texto-footer">
+                    Telefone/Contato: 55 11 99999-9999 <br>
+                    <br><br>Endereço principal: Maracanãzinho, RJ
+                    <br><br><br>E-mail: luarsvolleyball@gmail.com
+                </div>
+            <p2>2023 <a href="menulateral.html">Luar's Volleybol - Treinando até que seja impossivel dar errado.</a> -
+            Todos os direitos reservados </p2><br>
+        </div>  
+
+</body>
+</html>   
